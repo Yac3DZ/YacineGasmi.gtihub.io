@@ -3,21 +3,6 @@ body {
     margin: 0;
 }
 
-#dova {
-    position: absolute;
-    min-height: 400px;
-    min-width: 400px;
-    top: 50%;
-    left: 50%;
-    background-color: rgba(53, 90, 255, 0.719);
-    z-index: 200;
-    border-radius: 50%; 
-    backdrop-filter: invert(100%);
-    mix-blend-mode: overlay;
-    pointer-events: none;
-    transform: translate(-50%,-50%);
-}
-
 iframe {
     display: block;       /* iframes are inline by default */
     background: #000;
